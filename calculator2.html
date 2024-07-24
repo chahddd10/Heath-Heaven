@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator2.css">
+</head>
+<body>
+    <header>
+        <nav class="main_nav">
+            <div id="nav1">
+                <h1>
+                    <img src="health.png" alt="" class="health_logo">
+                </h1>
+                <nav>
+                <ul class="second_nav" >
+                    <li><a href="health.html">about us</a></li>
+                    <li><a   href="need.html">need to know</a></li>
+                    <li class="btn"><a href="calculator2.html">calculator</a></li>
+                </ul>
+            </nav>
+            </div>
+        </nav>
+    </header>
+    <h1> here we have the weight calculator:
+    </h1>
+    <div class="calcl">
+    <form   name="form" onsubmit="calc(event)" >
+        <fieldset>
+        <label for="weight">weight (kg):</label>
+        <input type="text" id="weight" name="weight"><br><br>
+        <label for="height">height (cm):</label>
+        <input type="text" id="height" name="height"><br><br>
+        <input type="submit" value="Calculate">
+    </fieldset>
+    </form>
+      <span class="imc" ></span>
+    <script src="./health.js" ></script>
+    <div class="table">
+            <table  class="tab " border="1">
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>Catégorie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>moins de 18,5</td>
+                        <td>Insuffisance pondérale (maigreur)</td>
+                    </tr>
+                    <tr>
+                        <td>18,5 à 25</td>
+                        <td>Corpulence normale</td>
+                    </tr>
+                    <tr>
+                        <td>25 à 30</td>
+                        <td>Surpoids</td>
+                    </tr>
+                    <tr>
+                        <td>30 à 35</td>
+                        <td>Obésité modérée</td>
+                    </tr>
+                    <tr>
+                        <td>35 à 40</td>
+                        <td>Obésité sévère</td>
+                    </tr>
+                    <tr>
+                        <td>plus de 40</td>
+                        <td>Obésité morbide ou massive</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+        </html>
+        
+    </div>
+</div>
+</body>
+</html>

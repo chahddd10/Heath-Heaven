@@ -1,0 +1,164 @@
+#nav1{
+    display: flex;
+    justify-content: space-around;
+}
+.health_logo{
+    width: 125px;
+    height: 125px;
+    border-radius: 50px;
+
+}
+.second_nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    padding-top: 40px;
+
+}
+nav{
+    position: sticky;
+    height: 0%;
+    background-color: #E3E2DF;
+    
+    
+    
+
+}
+a{
+    text-decoration: none;
+    color: #7091E6;
+    font-family: "Rubik", sans-serif;
+    font-size: larger;
+}
+body{
+    background-color: #E3E2DF;
+    
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.def{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.pepper{
+    width: 100%;
+    height: auto;
+}
+.card1{
+    border-radius:10px ;
+    padding: 10px;
+    height: 270px;
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.need{
+    color: black;
+}
+.services__item{
+    padding: .75rem;
+    flex-grow: 1;
+    order: 2;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.card2{
+border-radius:10px ;
+padding: 10px;
+height: 270px;
+width: 279px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+.card3{
+    border-radius:10px ;
+    padding: 10px;
+    height: 270px;
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+    .card4{
+        border-radius:10px ;
+        padding: 10px;
+        height: 270px;
+        width: 279px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        }
+        .card5{
+            border-radius:10px ;
+            padding: 10px;
+            height: 270px;
+            width: 279px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            }
+            .card6{
+                border-radius:10px ;
+                padding: 10px;
+                height: 270px;
+                width: 279px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                }
+.h1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 3.5%;
+}
+.btn{
+    background-color:#3D52A0;
+    border-radius: 3px;
+    padding: 10px;
+  
+}
+.btn a{
+color: whitesmoke;
+}
+.h12{
+    margin-top: 20px;
+    margin-top: 128px;
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 3.5%;
+}
+.vids{
+    display: flex;
+    gap: 60px;
+}
+.vids2{
+    display: flex;
+    gap: 60px;
+    margin-top: 90px;
+}
